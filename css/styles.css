@@ -401,4 +401,70 @@ blockquote {
 
 #mauve{background-color: purple;}
 
-/* End of Enhanced CSS Styles */
+.bodyindex {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "header header"
+        "left right";
+    gap: 10px;
+}
+
+
+
+.h1index {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.h2index {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.leftindex {
+    grid-area: left;
+    padding: 5px;
+    background-color: rgb(41, 39, 39);
+    color:white;
+}
+
+.rightindex {
+    grid-area: right;
+    padding: 10px;
+}
+
+.ulindex {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.liindex {
+    margin-bottom: 5px;
+}
+
+.strongindex {
+    font-weight: bold;
+}
+.headerindex {
+    background: linear-gradient(135deg, #35424a, #4CAF50);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease;
+    grid-area:header;
+}
+.imgindex{
+    max-width: 200px;
+    max-height: 300px;
+    padding: 15px;
+    position:relative;
+}
