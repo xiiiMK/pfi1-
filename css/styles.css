@@ -411,7 +411,7 @@ blockquote {
     grid-template-areas: 
         "header header"
         "left right";
-    gap: 10px;
+    gap: 0px;
 }
 
 
@@ -442,15 +442,17 @@ blockquote {
 .ulindex {
     list-style: disc;
     margin-left: 20px;
-    padding-left: 10px;
+    padding-left: 0px;
 }
 
 .liindex {
     margin-bottom: 5px;
+    padding-left: 25px;
+    list-style-type:georgian;
 }
 
 .strongindex {
-    font-weight: bold;
+    font-weight: bolder;
 }
 .headerindex {
     background: linear-gradient(135deg, #35424a, #4CAF50);
@@ -468,4 +470,13 @@ blockquote {
     padding: 15px;
     position:relative;
     padding-left:40px;
+}
+.olindex{
+    list-style: none;
+}
+.stronglist{
+    font-weight: bold;
+}
+h4{
+    font-weight: bolder;
 }
