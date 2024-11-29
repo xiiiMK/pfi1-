@@ -411,7 +411,7 @@ blockquote {
     grid-template-areas: 
         "header header"
         "left right";
-    gap: 0px;
+    gap: 0.2px;
 }
 
 
@@ -444,18 +444,29 @@ blockquote {
     margin-left: 20px;
     padding-left: 0px;
 }
-
+.ulindex2{
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 0px;
+    color:white
+}
 .liindex {
     margin-bottom: 5px;
     padding-left: 25px;
     list-style-type:georgian;
+}
+.liindex2{
+    margin-bottom: 5px;
+    padding-left: 25px;
+    list-style-type:georgian;
+    color:white;
 }
 
 .strongindex {
     font-weight: bolder;
 }
 .headerindex {
-    background: linear-gradient(135deg, #35424a, #4CAF50);
+    background: linear-gradient(135deg, #00C9FF  , #92FE9D   );
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -465,11 +476,12 @@ blockquote {
     grid-area:header;
 }
 .imgindex{
-    max-width: 200px;
-    max-height: 300px;
-    padding: 15px;
-    position:relative;
-    padding-left:40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 .olindex{
     list-style: none;
@@ -480,3 +492,11 @@ blockquote {
 h4{
     font-weight: bolder;
 }
+
+.img-container {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;
+    width: 100%;            
+    height: 300px;           
+  }
