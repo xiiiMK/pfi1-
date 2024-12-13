@@ -9,6 +9,15 @@ body {
     background-size: cover;
   color: #ffffff;
     transition: background-color 0.3s ease;
+    display: grid;
+    grid-template-columns: 21vw 79vw;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+        "header header"
+        "left right"
+        "footer footer";
+    gap: 0.2px;
+
 }
 
 h1, h2, h3, h4 {
@@ -100,20 +109,6 @@ footer {
 
 
 
-.bodyindex {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 21vw 79vw;
-    grid-template-rows: auto 1fr;
-    grid-template-areas: 
-        "header header"
-        "left right"
-        "footer footer";
-    gap: 0.2px;
-}
-
 
 
 .h1index {
@@ -179,7 +174,7 @@ footer {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 1200px) {
-    .bodyindex {
+    body{
         grid-template-columns: 30vw 70vw;
     }
     header h1 {
