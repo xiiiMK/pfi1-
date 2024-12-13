@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -7,12 +6,12 @@ body {
     background-image: url(https://wallpapercave.com/wp/wp11937556.jpg);
     background-position: center;
     background-size: cover;
-  color: #ffffff;
+    color: #ffffff;
     transition: background-color 0.3s ease;
     display: grid;
     grid-template-columns: 21vw 79vw;
     grid-template-rows: auto 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "left right"
         "footer footer";
@@ -20,7 +19,10 @@ body {
 
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     color: #f8fcff;
     margin: 10px 0;
     transition: color 0.3s ease;
@@ -32,6 +34,7 @@ h1, h2, h3, h4 {
         transform: translateY(-20px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -82,7 +85,8 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
 }
@@ -96,7 +100,7 @@ th {
 footer {
     text-align: center;
     padding: 10px 0;
-    background-image:url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
+    background-image: url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
     background-position: center;
     background-size: fill;
     color: #000000;
@@ -104,7 +108,7 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 20px;
-    grid-area:footer;
+    grid-area: footer;
 }
 
 
@@ -125,12 +129,12 @@ footer {
 .leftindex {
     grid-area: left;
     padding: 5px;
- 
-    background-image:url(https://wallpapercave.com/wp/wp3559490.jpg);
-   background-position: center; 
-   background-size:fill;
-   background-repeat: repeat-y;
-    color:white;
+
+    background-image: url(https://wallpapercave.com/wp/wp3559490.jpg);
+    background-position: center;
+    background-size: fill;
+    background-repeat: repeat-y;
+    color: white;
 }
 
 .rightindex {
@@ -143,29 +147,32 @@ footer {
     margin-left: 20px;
     padding-left: 0px;
 }
-.ulindex2{
+
+.ulindex2 {
     list-style: disc;
     margin-left: 20px;
     padding-left: 0px;
-    color:white
+    color: white
 }
+
 .liindex {
     margin-bottom: 5px;
     padding-left: 25px;
-    list-style-type:georgian;
+    list-style-type: georgian;
 }
-.liindex2{
+
+.liindex2 {
     margin-bottom: 5px;
     padding-left: 25px;
-    list-style-type:georgian;
-    color:white;
+    list-style-type: georgian;
+    color: white;
 }
 
 .strongindex {
     font-weight: bolder;
 }
 
-.imgindex{
+.imgindex {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -173,10 +180,12 @@ footer {
     border: 2px solid #ccc;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
+
 @media (max-width: 1200px) {
-    body{
+    body {
         grid-template-columns: 30vw 70vw;
     }
+
     header h1 {
         font-size: 2.2em;
     }
@@ -187,9 +196,11 @@ footer {
     .h1index {
         font-size: 2em;
     }
+
     .h2index {
         font-size: 1.3em;
     }
+
     .imgindex {
         width: 150px;
         height: 150px;
@@ -200,34 +211,42 @@ footer {
     .h1index {
         font-size: 1.8em;
     }
+
     .h2index {
         font-size: 1.2em;
     }
-    .leftindex, .rightindex {
+
+    .leftindex,
+    .rightindex {
         padding: 10px;
     }
+
     footer {
         font-size: 0.9em;
     }
 }
-.olindex{
+
+.olindex {
     list-style: none;
 }
-.stronglist{
+
+.stronglist {
     font-weight: bold;
 }
-h4{
+
+h4 {
     font-weight: bolder;
 }
 
 .img-container {
-    display: flex;          
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;            
-    height: 300px;           
-  }
-  nav {
+    width: 100%;
+    height: 300px;
+}
+
+nav {
     margin-top: 10px;
 }
 
@@ -253,8 +272,9 @@ nav ul li a:hover {
     text-decoration: underline;
     transform: scale(1.1);
 }
+
 header {
-    background-image:url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
+    background-image: url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
     background-position: center;
     background-size: fill;
     color: #ffffff;
@@ -264,14 +284,11 @@ header {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     animation: slideDown 0.5s ease;
     grid-area: header;
-    
+
 }
-a:hover{
+
+a:hover {
     color: #e1ff00;
     text-decoration: underline;
 
 }
-
-
-
-  
