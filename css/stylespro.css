@@ -3,6 +3,9 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    background-image:url(https://wallpapercave.com/wp/wp11937556.jpg);
+    background-position: center;
+    background-size: cover;
 }
 @media (max-width: 768px) {
     nav ul li {
@@ -10,20 +13,31 @@ body {
         margin: 10px 0;
     }}
 
-
-header {
-    background: linear-gradient(135deg, #00C9FF  , #92FE9D   );
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-    position: relative;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    animation: slideDown 0.5s ease;
-}
+    header {
+        background-image:url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
+        background-position: center;
+        background-size: fill;
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        animation: slideDown 0.5s ease;
+    }
+    .logo {
+        width: 100px;
+        margin: 10px 0;
+        transition: transform 0.3s;
+    }
+    
+    .logo:hover {
+        transform: scale(1.1);
+    }
+    
 
 .professions-section {
     padding: 20px;
-    background: #fff;
+    background:rgba(98, 91, 91, 0.2);
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -48,11 +62,11 @@ header {
 }
 
 .professions tr:nth-child(even) {
-    background-color: #00ffc8;
+    background-color: #613500;
 }
 
 .professions tr:hover {
-    background-color: #8d87879c;
+    background-color: #8d87871f;
 }
 
 .source {
@@ -61,17 +75,20 @@ header {
 }
 
 .source a {
-    color: #007bff;
+    color: #ffffff;
     text-decoration: none;
 }
 
-.source a:hover {
+a:hover {
     text-decoration: underline;
+    color: #ffe600;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background-image:url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
+    background-position: center;
+    background-size: fill;
+    color: #000000;
     text-align: center;
     padding: 15px 0;
     position: relative;
@@ -85,15 +102,15 @@ footer {
 }
 
 .grid-item {
-    background-color: #f0f0f0; 
+    background-color:rgba(98, 91, 91, 0.2); 
     padding: 15px;
-    border: 1px solid #ccc;
+
 }
 
 
 
 tr:nth-child(odd) {
-    background-color: #00ff08; 
+    background-color: #956d00; 
 }
 nav {
     margin-top: 10px;
@@ -110,14 +127,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #4e4e4e;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s, transform 0.3s;
 }
 
 nav ul li a:hover {
-    color: #f4f4f4;
+    color: #ffe600;
     text-decoration: underline;
     transform: scale(1.1);
 }

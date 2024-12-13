@@ -1,0 +1,85 @@
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://wallpapercave.com/wp/wp11937556.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000000;
+}
+.logo {
+    width: 100px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+header {
+    background-image:url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
+    background-position: center;
+    background-size: fill;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease;
+}
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e1ff00;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+a:hover{
+        color: #e1ff00;
+        text-decoration: underline;
+    
+}
+
+footer {
+    background-image:url(//wallpapers.com/images/hd/white-wood-background-v1t13ose7yhtv214.jpg);
+    background-position: center;
+    background-size: fill;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
